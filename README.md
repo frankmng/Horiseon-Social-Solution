@@ -1,4 +1,4 @@
-# challenge-1-code-refactor
+# Horiseon-Social-Solution
 Refactoring existing HTML code to meet accessibility standards 
 
 
