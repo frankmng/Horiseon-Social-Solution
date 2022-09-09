@@ -1,29 +1,31 @@
+/* universal selector 
+tells the browser to account for any border, padding, and margin  */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-
+/* specifies the entire body content will be set to specified color of #d9dcd6 */
 body {
     background-color: #d9dcd6;
 }
-
+/* gives the header element a padding of 20px, a specified font, background color and text color */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
-
+/* gives the header h1 element a display of inline block and font size of 48px */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
-
+/* gives the header h1 seo element a color*/
 .header h1 .seo {
     color: #d9dcd6;
 }
-
+/* gives the div nested inside the header a padding top of 15px, margin right of 20px, float to the right, a font, and a text color*/
 .header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -31,25 +33,25 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-
+/* gives the list element to not show any style in the list elements */
 .header div ul {
     list-style-type: none;
 }
-
+/* gives the li elements to be inline and have margin left of 25px for each li element*/
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
-
+/* gives each link the style of the specified text color and to not have an underline (text-decoration) */
 a {
     color: #ffffff;
     text-decoration: none;
 }
-
+/* gives each p element a font size of 16px */
 p {
     font-size: 16px;
 }
-
+/* gives the hero element a height of 800px, width of 100%, margin bottom of 25px, and specifies what background image to use with it's size and position */
 .hero {
     height: 800px;
     width: 100%;
@@ -58,23 +60,23 @@ p {
     background-size: cover;
     background-position: center;
 }
-
+/* floats the element to the left */
 .float-left {
     float: left;
     margin-right: 25px;
 }
-
+/* floats the element to the right */
 .float-right {
     float: right;
     margin-left: 25px;
 }
-
+/* gives the content a width of 75%, inline display and margin left of 20px */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-
+/* gives the benefits content a margin right of 20px, padding of 20px, clear to have elements float below, width of 20%, height of 100%, a font family, and background color */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -85,55 +87,55 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
+/* gives the element a margin bottom of 32px and a text color */
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
+/* gives the element a margin bottom of 32px and a text color */
 .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
+/* gives the element a margin bottom of 32px and a text color */
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
+/* gives the element a margin bottom of 10px and aligns the text to center */
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
+/* gives the element a margin bottom of 10px and aligns the text to center */
 .benefit-brand h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
+/* gives the element a margin bottom of 10px and aligns the text to center */
 .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
+/* gives the img element a display of block, margin of 10px all around and a max width of 150px */
 .benefit-lead img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
+/* gives the img element a display of block, margin of 10px all around and a max width of 150px */
 .benefit-brand img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
+/* gives the img element a display of block, margin of 10px all around and a max width of 150px */
 .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
+/* gives style to the article content with margin bottom of 20px, padding of 50px, height of 300px, specified font, background color and text color */
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -142,7 +144,7 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/* gives style to the article content with margin bottom of 20px, padding of 50px, height of 300px, specified font, background color and text color */
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -151,7 +153,7 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/* gives style to the article content with margin bottom of 20px, padding of 50px, height of 300px, specified font, background color and text color */
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -160,41 +162,41 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/* gives the img element a maximum height of 200px */
 .search-engine-optimization img {
     max-height: 200px;
 }
-
+/* gives the img element a maximum height of 200px */
 .online-reputation-management img {
     max-height: 200px;
 }
-
+/* gives the img element a maximum height of 200px */
 .social-media-marketing img {
     max-height: 200px;
 }
-
+/* gives the header the ideal positioning with margin bottom of 20px and an appearance of font size 36px */
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/* gives the header the ideal positioning with margin bottom of 20px and an appearance of font size 36px */
 .online-reputation-management h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/* gives the header the ideal positioning with margin bottom of 20px and an appearance of font size 36px */
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/* gives the footer styling of padding 30px, a clear attribute to moved below preceding floating elements, a font family, and text aligned center*/
 .footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-
+/* gives the h2 element contained in the footer to be font size of 20px*/
 .footer h2 {
     font-size: 20px;
 }
