@@ -1,5 +1,4 @@
-/* universal selector 
-tells the browser to account for any border, padding, and margin  */
+/* universal selector tells the browser to account for any border, padding, and margin  */
 * {
     box-sizing: border-box;
     padding: 0;
