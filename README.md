@@ -12,8 +12,7 @@ N/A
 
 ## Usage
 
-Each section is separated by different topics: HTML, CSS, Javascript, and GIT
-Use each section appropriately for taking down notes in its respective topic section
+N/A
 
 ## Credits
 
